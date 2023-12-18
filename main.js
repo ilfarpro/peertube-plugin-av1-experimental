@@ -10,7 +10,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libopus', 'av1', () => ({
     inputOptions: [],
-    outputOptions: ['-b:a', '256k']
+    outputOptions: ['-b:a', '320k', '-af', 'loudnorm=I=-14:LRA=11:TP=-1']
   }));
 
   transcodingManager.addVODEncoderPriority('audio', 'libopus', 1000);
