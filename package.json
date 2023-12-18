@@ -1,7 +1,7 @@
 {
   "name": "peertube-plugin-av1-experimental",
   "description": "PeerTube plugin for SVT-AV1 transcoding with CRF 23 Preset 6 (almost visually lossless)",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "ilfarpro",
   "bugs": "https://github.com/ilfarpro/peertube-plugin-av1-experimental/issues",
   "clientScripts": [
