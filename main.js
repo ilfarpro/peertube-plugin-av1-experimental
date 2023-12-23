@@ -3,7 +3,7 @@ async function register ({
 }) {
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Slow', () => ({
     inputOptions: [],
-    outputOptions: ['-preset', '7', '-crf', '23', '-svtav1-params', 'fast-decode=1:tune=0:film-grain=8']
+    outputOptions: ['-preset', '7', '-crf', '23']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
