@@ -4,7 +4,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 8', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -16,7 +16,7 @@ async function register ({
   
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 7', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '7', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -28,7 +28,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 6', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '6', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -40,7 +40,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 5', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '5', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -52,7 +52,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 8 NoLoudNorm', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -64,7 +64,7 @@ async function register ({
   
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 7 NoLoudNorm', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '7', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -76,7 +76,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 6 NoLoudNorm', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '6', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
@@ -88,7 +88,7 @@ async function register ({
 
   transcodingManager.addVODProfile('libsvtav1', 'SVT-AV1 CRF23 Preset 5 NoLoudNorm', () => ({
     inputOptions: [],
-    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '5', '-crf', '23']
+    outputOptions: ['-pix_fmt yuv420p10le', '-preset', '8', '-crf', '23', '-svtav1-params', 'tune=0']
   }));
 
   transcodingManager.addVODEncoderPriority('video', 'libsvtav1', 1000);
