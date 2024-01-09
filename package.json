@@ -1,7 +1,7 @@
 {
   "name": "peertube-plugin-av1-experimental",
-  "description": "PeerTube plugin for SVT-AV1 transcoding with CRF 23 Preset 7 and Loudness Normalization",
-  "version": "0.3.5",
+  "description": "PeerTube plugin for SVT-AV1 transcoding with CRF 23 Presets from 8-5 and Loudness Normalization",
+  "version": "0.3.6",
   "author": "ilfarpro",
   "bugs": "https://github.com/ilfarpro/peertube-plugin-av1-experimental/issues",
   "clientScripts": [
